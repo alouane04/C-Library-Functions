@@ -315,4 +315,19 @@
             </td>
         </tr>
     </tbody>
+    <tbody>
+        <tr>
+            <td><a href=ft_2d_len.c>ft_2d_len</a></td>
+            <td>It calc the lenght of 2D char table.<br>
+                It take table to be calc and return lenght of it.
+            </td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td><a href=ft_free.c>ft_free</a></td>
+            <td>It free 2D char table.<br>
+                It take table to be free and return void.</td>
+        </tr>
+    </tbody>
 </table>
