@@ -327,7 +327,32 @@
         <tr>
             <td><a href=ft_free.c>ft_free</a></td>
             <td>It free 2D char table.<br>
-                It take table to be free and return void.</td>
+                It take table to be free and return void.
+            </td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td><a href=ft_strsep.c>ft_strsep</a></td>
+            <td>Locates, in the string referenced by `*str`,<br>
+                the first occurrence of any character in the string `sep`
+                (or the terminating '\0' character) and replaces it with a '\0'.<br>
+                The location of the next character after the delimiter character
+                (or NULL, if the end of the string was reached) is stored in `*str`.<br>
+                The original value of `*str` is returned.<br>
+                If `*str` is initially NULL, NULL is returned.
+            </td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td><a href=ft_strcspn.c>ft_strspn</a></td>
+            <td>Compares at most `n` bytes from the two strings `s1` and `s2`.<br>
+                It returns an integer less than, equal to, or greater than zero
+                if `s1` is found, respectively, to be less than, to match,
+                or be greater than s2.<br>
+                If `n` is zero, the return value is zero.
+            </td>
         </tr>
     </tbody>
 </table>
