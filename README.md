@@ -270,4 +270,19 @@
             <td>Counts the number of elements in a list.</td>
         </tr>
     </tbody>
+       <thead>
+        <tr>
+            <th colspan=3><h4>get_next_line</h4></a></th>
+        </tr>
+        <tr>
+            <th>Libft</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href=gnl>get_next_line</a></td>
+            <td>Returns a line read from the file descriptor `fd`. Returns NULL if there are no more characters to read, or if an error occured.</td>
+        </tr>
+    </tbody>
 </table>
