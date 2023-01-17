@@ -271,5 +271,3 @@
         </tr>
     </tbody>
 </table>
-
-Footer
