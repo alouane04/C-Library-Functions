@@ -3,29 +3,11 @@
 	<i style='font-size:120%;'>Personal home-made Library</i>
 </h1>
 
-<p align="center">
-	<img alt="Top Language" src="https://img.shields.io/static/v1?label=Language&message=C&color=important&style=plastic"/>
-	<img alt="Supported" src="https://img.shields.io/static/v1?label=Supported+OS&message=Linux+/+Windows&color=yellow&style=plastic"/>
-	<img alt="Code Size" src="https://img.shields.io/github/languages/code-size/BlankRose/libft?label=Code+Size&color=informational&style=plastic"/>
-	<img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlankRose/libft?label=Last+Commit&color=critical&style=plastic"/>
-	<br>
-	<img alt="Libft" src="https://img.shields.io/static/v1?label=Libft+Mark&message=125+/+100&color=success&style=plastic"/>
-	<img alt="Libft" src="https://img.shields.io/static/v1?label=Printf+Mark&message=100+/+100&color=success&style=plastic"/>
-	<img alt="Libft" src="https://img.shields.io/static/v1?label=GNL+Mark&message=110+/+100&color=success&style=plastic"/>
-</p>
-
 <h2 style='font-size:160%; font-family:impact'>
 	💡	What is it?
 </h2><p>
-	This is my custom library I made while studying at 42 Mulhouse and that I will update over time as I study.<br>
+	This is my custom library I made while studying at 1337 and that I will update over time as I study.<br>
 	Feel free to tell me your thoughts and if there's anything to improve it :) <br><br>
-</p>
-
-<h2 style='font-size:160%; font-family:impact'>
-	🧰	How to use it?
-</h2><p>
-	Run the command <b style='font-family:Courier New'>'make -C [dir]'</b> on a terminal to compile the library and use the following flags<br>
-	to use it with your other projects: <b style='font-family:Courier New'>'gcc -L [lib's dir] -l ft ..'</b><br><br>
 </p>
 
 <h2 style='font-size:160%; font-family:impact'>
@@ -38,6 +20,7 @@
 		<li>ft_printf</li>
 		<li>GetNextLine</li>
 		<li>Lots of extra functions</li>
+        <li>Feel free to discover theme one by one</li>
 	</ul><br>
 </p>
 
@@ -50,13 +33,6 @@
 		for little extra handy features</li>
 	</ul>
 </em></p>
-<p align="center">
-<img src="libft banner.png" align="center"/>
-</p>
-
-<P align="center"> 
-   your very own library recreated to help you in your cursus in 1337 you'll recreate some useful functions in the standard library
-</p>
 
 <P align="center"> 
   <h1>Resources</h1>
