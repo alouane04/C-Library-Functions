@@ -303,20 +303,6 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href=ft_atoll.c>ft_atoll</a></td>
-            <td>Converts the initial part of the string `str` to a long long.<br>
-                The string may begin with an arbitrary amount of white space
-                followed by a single optional '+' or '-' sign.<br>
-                The remainder of the string is converted to a long long
-                in the obvious manner,
-                stopping at the first character which is not a valid digit.<br>
-                If an overflow occurs, LONG_LONG_MAX is returned and errno is set to ERANGE.<br>
-                If an underflow occurs, LONG_LONG_MIN is returned and errno is set to ERANGE.<br>
-            </td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
             <td><a href=ft_2d_len.c>ft_2d_len</a></td>
             <td>It calc the lenght of 2D char table.<br>
                 It take table to be calc and return lenght of it.
@@ -352,6 +338,20 @@
                 if `s1` is found, respectively, to be less than, to match,
                 or be greater than s2.<br>
                 If `n` is zero, the return value is zero.
+            </td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td><a href=ft_atoll.c>ft_atoll</a></td>
+            <td>Converts the initial part of the string `str` to a long long.<br>
+                The string may begin with an arbitrary amount of white space
+                followed by a single optional '+' or '-' sign.<br>
+                The remainder of the string is converted to a long long
+                in the obvious manner,
+                stopping at the first character which is not a valid digit.<br>
+                If an overflow occurs, LONG_LONG_MAX is returned and errno is set to ERANGE.<br>
+                If an underflow occurs, LONG_LONG_MIN is returned and errno is set to ERANGE.<br>
             </td>
         </tr>
     </tbody>
