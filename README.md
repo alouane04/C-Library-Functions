@@ -304,14 +304,14 @@
     <tbody>
         <tr>
             <td><a href=ft_atoll.c>ft_atoll</a></td>
-            <td>Converts the initial part of the string `str` to a long long.
+            <td>Converts the initial part of the string `str` to a long long.<br>
                 The string may begin with an arbitrary amount of white space
-                followed by a single optional '+' or '-' sign.
+                followed by a single optional '+' or '-' sign.<br>
                 The remainder of the string is converted to a long long
                 in the obvious manner,
-                stopping at the first character which is not a valid digit.
-                If an overflow occurs, LONG_LONG_MAX is returned and errno is set to ERANGE.
-                If an underflow occurs, LONG_LONG_MIN is returned and errno is set to ERANGE.
+                stopping at the first character which is not a valid digit.<br>
+                If an overflow occurs, LONG_LONG_MAX is returned and errno is set to ERANGE.<br>
+                If an underflow occurs, LONG_LONG_MIN is returned and errno is set to ERANGE.<br>
             </td>
         </tr>
     </tbody>
