@@ -272,7 +272,7 @@
     <tbody>
         <tr>
             <td><a href=gnl>get_next_line</a></td>
-            <td>Returns a line read from the file descriptor `fd`. Returns NULL if there are no more characters to read, or if an error occured.</td>
+            <td>Returns a line read from the file descriptor `fd`.<br>Returns NULL if there are no more characters to read, or if an error occured.</td>
         </tr>
     </tbody>
     </tbody>
@@ -289,6 +289,30 @@
         <tr>
             <td><a href=ft_printf>ft_printf</a></td>
             <td>This function mimics the real `printf` but is limited: <br>Supports these specifiers: 'cspdiuxX%' <br>Supports these flags: '-0#+ '.</td>
+        </tr>
+    </tbody>
+    </tbody>
+       <thead>
+        <tr>
+            <th colspan=3><h4>some needed function</h4></a></th>
+        </tr>
+        <tr>
+            <th>Libft</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href=ft_atoll.c>ft_atoll</a></td>
+            <td>Converts the initial part of the string `str` to a long long.
+                The string may begin with an arbitrary amount of white space
+                followed by a single optional '+' or '-' sign.
+                The remainder of the string is converted to a long long
+                in the obvious manner,
+                stopping at the first character which is not a valid digit.
+                If an overflow occurs, LONG_LONG_MAX is returned and errno is set to ERANGE.
+                If an underflow occurs, LONG_LONG_MIN is returned and errno is set to ERANGE.
+            </td>
         </tr>
     </tbody>
 </table>
