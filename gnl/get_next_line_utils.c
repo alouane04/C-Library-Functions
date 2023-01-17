@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eel-moun <eel-moun@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ariahi <ariahi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/14 13:21:43 by eel-moun          #+#    #+#             */
-/*   Updated: 2023/01/14 13:21:48 by eel-moun         ###   ########.fr       */
+/*   Created: 2021/12/14 10:54:26 by ariahi            #+#    #+#             */
+/*   Updated: 2023/01/17 15:04:39 by ariahi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strchr_utils(char *s, int c)
 	while (*s != '\0')
 	{
 		if (*s == (char) c)
-			return (s);
+			return (&*s);
 		s++;
 	}
 	return (NULL);
@@ -51,8 +51,7 @@ char	*ft_strjoin_utils(char *s1, char *s2)
 	}
 	if (!s1 || !s2)
 		return (NULL);
-	str = malloc((ft_strlen_utils(s1)
-				+ ft_strlen_utils(s2) + 1) * sizeof(char));
+	str = malloc((ft_strlen_utils(s1) + ft_strlen_utils(s2) + 1) * sizeof(char));
 	if (!str)
 		return (NULL);
 	i = -1;

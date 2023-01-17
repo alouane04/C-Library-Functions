@@ -34,16 +34,6 @@
 	</ul>
 </em></p>
 
-<P align="center"> 
-  <h1>Resources</h1>
-  <ul>
-    <li>1-the c standard book: https://b-ok.africa/book/633119/db5c78</li>
-    <li>2-makefile: https://b-ok.africa/book/2548807/233dc2</li>
-    <li>3-file descriptor: https://www.computerhope.com/jargon/f/file-descriptor.htm</li>
-    <li>3-tester: https://github.com/xicodomingues/francinette</li>
-  </ul>
-</p>
-
 <h2> C standard library</h2>
 
 <table>
@@ -283,6 +273,22 @@
         <tr>
             <td><a href=gnl>get_next_line</a></td>
             <td>Returns a line read from the file descriptor `fd`. Returns NULL if there are no more characters to read, or if an error occured.</td>
+        </tr>
+    </tbody>
+    </tbody>
+       <thead>
+        <tr>
+            <th colspan=3><h4>ft_printf</h4></a></th>
+        </tr>
+        <tr>
+            <th>Libft</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href=ft_printf>ft_printf</a></td>
+            <td>This function mimics the real `printf` but is limited: <br>Supports these specifiers: 'cspdiuxX%' <br>Supports these flags: '-0#+ '.</td>
         </tr>
     </tbody>
 </table>

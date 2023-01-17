@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line.c       		                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eel-moun <eel-moun@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ariahi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/31 21:47:07 by eel-moun          #+#    #+#             */
-/*   Updated: 2022/12/29 17:31:20 by eel-moun         ###   ########.fr       */
+/*   Created: 2021/12/14 10:54:26 by ariahi            #+#    #+#             */
+/*   Updated: 2021/12/14 10:54:31 by ariahi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,10 @@ char	*get_the_line(char *buffer)
 		return (NULL);
 	while (buffer[i] && buffer[i] != '\n')
 		i++;
-	line = malloc(sizeof(char) * (i + 1));
+	if (buffer[i] == '\n')
+		line = malloc(sizeof(char) * (i + 2));
+	else
+		line = malloc(sizeof(char) * (i + 1));
 	if (!line)
 		return (NULL);
 	i = 0;
@@ -56,6 +59,8 @@ char	*get_the_line(char *buffer)
 		line[i] = buffer[i];
 		i++;
 	}
+	if (buffer[i] == '\n')
+		line[i++] = '\n';
 	return (line[i] = '\0', line);
 }
 
